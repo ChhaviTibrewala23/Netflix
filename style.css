@@ -190,6 +190,9 @@ img{
 	position: relative;
 	display: inline-grid;
 	grid-template-columns: 40%
+	text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
 }
 .desc-2{
 	padding-left: 100px;
@@ -220,4 +223,52 @@ img{
 	grid-column: 2/2;
 	grid-row: 1/2;
 	z-index: -1;
+}
+.faq{
+	text-align: center;
+}
+.faq h1{
+	padding-bottom: 40px;
+	font-size: 3rem;
+}
+.questions{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 40%;
+	align-items: center;
+}
+.questions li{
+	padding: 20px 30px;
+	margin: 5px;
+	font-size: 1.6rem;
+	background-color: #303030;
+	color: white;
+	text-align: left;
+	width: 50%;
+}
+.faq p{
+	padding-top: 60px;
+	font-size: 1.2rem;
+	font-weight: 200;
+}
+.input{
+	display: inline-grid;
+	align-items: center;
+	grid-template-columns: 50% 40%;
+}
+.input input{
+	width: 600px;
+	height: 3rem;
+}
+.input button{
+	height: 3.25rem;
+	width: 320px;
+	left: 20px;
+	text-align: center;
+	background-color: red;
+	font-size: 1.5rem;
+	padding: 15px 32px;
+	border: none;
+	border-radius: 2px;
+	color: white;
 }
